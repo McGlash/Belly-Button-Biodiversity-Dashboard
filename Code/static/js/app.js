@@ -133,7 +133,8 @@ function charts(file, id, metadata){
             {
               domain: { x: [0, 1], y: [0, 1] },
               value: washFrequency,
-              title: { text: "SpeedBelly Button <br>Washing Frequency<br><br><span style='font-size:15;color:'#a2ac86'>Scrubs per week</span>", font: { size: 18 }},
+              title: { text: "SpeedBelly Button <br>Washing Frequency<br><br><span style='font-size:15; color:'#a2ac86'>Scrubs per week</span>", 
+              font: { size: 18, family: "Arial, sans-serif" }},
               type: "indicator",
               mode: "gauge+number",
               gauge: {
