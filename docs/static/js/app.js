@@ -2,7 +2,7 @@
 
 function init(){
     //read json file into js
-    d3.json("../data/samples.json").then(sampleFile => {
+    d3.json("data/samples.json").then(sampleFile => {
 
         console.log(sampleFile)
 
@@ -164,7 +164,7 @@ function charts(file, id, metadata){
 
 function optionChanged (){
 
-    d3.json("../data/samples.json").then(sampleFile => {
+    d3.json("data/samples.json").then(sampleFile => {
 
        //get the id selected
         var dropdownMenu = d3.select("#selDataset");
