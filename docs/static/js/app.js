@@ -28,8 +28,6 @@ function init(){
         //add to panel
         var demographicPanel = d3.select(".list-group");
 
-        //demographicPanel.removeChild(demographicPanel.childNodes);
-
         var participant = participantProfiles[0];
 
         Object.entries(participant).forEach(([key, value]) => {
